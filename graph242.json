@@ -1,0 +1,27 @@
+
+
+{
+  "nodes": [
+    {
+      "name": "arable or pasturable land",
+      "value": 0,
+      "id": 1
+    },
+    {
+      "name": "land",
+      "value": 1,
+      "id": 2
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "is a",
+        "value": 1,
+      "since": 2
+    }
+  ]
+}
+
+

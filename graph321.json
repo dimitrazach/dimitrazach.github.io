@@ -1,0 +1,102 @@
+
+
+{
+  "nodes": [
+    {
+      "name": "Grassland area",
+      "value": 0,
+      "id": 1
+    },
+    {
+      "name": "Vegetated area",
+      "value": 1,
+      "id": 2
+    },
+    {
+      "name": "Steppe",
+  "value": 1,
+      "id": 3
+    },
+    {
+      "name": "Prairie",
+  "value": 1,
+      "id": 4
+    },
+    {
+      "name": "Savanna",
+  "value": 1,
+      "id": 5
+    },
+    {
+      "name": "Grassland ecosystem",
+  "value": 2,
+      "id": 6
+    },
+    {
+      "name": "Grass fire",
+  "value": 3,
+      "id": 7
+    },
+    {
+      "name": "Grassland soil",
+  "value": 4,
+      "id": 8
+    },
+    {
+      "name": "Area of gramanoid or herbaceous vegetation ",
+  "value": 1,
+      "id": 9
+    }
+  ],
+  "links": [
+    {
+      "source": 1,
+      "target": 2,
+      "type": "is a",
+        "value": 1,
+      "since": 2
+    },
+    {
+      "source": 3,
+      "target": 1,
+        "value": 1,
+      "type": "is a"
+    },
+    {
+      "source": 4,
+      "target": 1,
+        "value": 1,
+      "type": "is a"
+    },
+    {
+      "source": 5,
+      "target": 1,
+        "value": 1,
+      "type": "is a"
+    },
+      {
+      "source": 9,
+      "target": 1,
+        "value": 1,
+      "type": "is a"
+    },
+    {
+      "source": 1,
+      "target": 6,
+        "value": 2,
+      "type": "overlaps"
+    },
+    {
+      "source": 7,
+      "target": 1,
+        "value": 3,
+      "type": "occurs in"
+    },
+    {
+      "source": 8,
+      "target": 1,
+        "value": 4,
+      "type": "located in"
+    }
+  ]
+}

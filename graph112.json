@@ -1,0 +1,93 @@
+
+
+{
+  "nodes": [
+    {
+      "name": "area of developed space",
+      "value": 0,
+      "id": 1
+    },
+    {
+      "name": "area of developed space with low usage intensity ",
+      "value": 1,
+      "id": 2
+    },
+    {
+      "name": "area of developed space with high usage intensity",
+  "value": 1,
+      "id": 3
+    },
+    {
+      "name": "area of developed space with medium usage intensity",
+ "value": 1,
+      "id": 4
+    },
+    {
+      "name": "anthropised terrestrial environmental zone",
+"value": 1,
+      "id": 5
+    },
+    {
+      "name": "urban biome",
+   "value": 2,
+      "id": 6
+    },
+    {
+      "name": "atmospheric boundary layer",
+   "value": 3,
+      "id": 7
+    },
+    {
+      "name": "urban stormwater",
+   "value": 4,
+      "id": 8
+    }
+  ],
+  "links": [
+    {
+      "source": 2,
+      "target": 1,
+      "type": "is a",
+        "value": 1,
+      "since": 2
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "type": "is a",
+        "value": 1
+    },
+    {
+      "source": 4,
+      "target": 1,
+      "type": "is a",
+        "value": 1
+    },
+    {
+      "source": 1,
+      "target": 5,
+      "type": "is a",
+        "value": 1
+    },
+    {
+      "source": 1,
+      "target": 6,
+      "type": "part of",
+        "value": 2
+    },
+    {
+      "source": 1,
+      "target": 7,
+      "type": "adjacent to",
+        "value": 3
+    },
+    {
+      "source": 8,
+      "target": 1,
+      "type": "located in",
+        "value": 4
+    }
+  ]
+}
+
+

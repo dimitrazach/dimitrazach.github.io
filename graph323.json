@@ -1,0 +1,60 @@
+
+
+{
+  "nodes": [
+    {
+      "name": "bush area",
+      "value": 0,
+      "id": 1
+    },
+    {
+      "name": "area of scrub",
+      "value": 1,
+      "id": 2
+    },
+    {
+      "name": "area of dwarf scrub",
+  "value": 1,
+      "id": 3
+    },
+    {
+      "name": "vegetated area",
+ "value": 1,
+      "id": 4
+    },
+    {
+      "name": "bush fire",
+"value": 2,
+      "id": 5
+    }
+  ],
+  "links": [
+    {
+      "source": 2,
+      "target": 1,
+      "type": "is a",
+        "value": 1,
+      "since": 2
+    },
+    {
+      "source": 3,
+      "target": 1,
+      "type": "is a",
+        "value": 1
+    },
+    {
+      "source": 1,
+      "target": 4,
+      "type": "is a",
+        "value": 1
+    },
+    {
+      "source": 5,
+      "target": 1,
+      "type": "occurs in",
+        "value": 2
+    }
+  ]
+}
+
+
